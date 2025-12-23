@@ -50,10 +50,10 @@
   }
 
   /* Focus styles for accessibility */
-  *:focus {
+  /* *:focus {
     outline: 2px solid #007A33;
     outline-offset: 2px;
-  }
+  } */
 
   /* Smooth transitions for interactive elements */
   button, a, input, select, textarea {

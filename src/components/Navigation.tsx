@@ -20,7 +20,7 @@ const Navigation: React.FC = () => {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
@@ -43,8 +43,8 @@ const Navigation: React.FC = () => {
                 to={path}
                 className={`px-3 py-2 rounded-md text-sm font-medium ${
                   isActive(path)
-                    ? "text-[#007A33] bg-green-50 border-b-2 border-[#007A33]"
-                    : "text-gray-700 hover:text-[#007A33] hover:bg-green-50"
+                    ? "text-[#007A33] bg-green-200 border-2 border-[#007A33]"
+                    : "text-gray-700 hover:text-white hover:bg-green-700"
                 }`}
               >
                 {label}
@@ -52,13 +52,13 @@ const Navigation: React.FC = () => {
             ))}
             <Link
               to="/donate"
-              className="bg-[#007A33] text-white px-4 py-2 rounded-md font-medium hover:bg-green-700"
+              className="bg-[#007A33] border-2 border-[#007A33] text-white px-4 py-2 rounded-md font-medium hover:bg-green-500 hover:border-green-500"
             >
               Donate
             </Link>
             <Link
               to="/login"
-              className="border border-[#007A33] text-[#007A33] px-4 py-2 rounded-md font-medium hover:bg-[#007A33] hover:text-white"
+              className="border-2 border-[#007A33] text-[#007A33] px-4 py-2 rounded-md font-medium hover:bg-green-500 hover:text-white hover:border-green-500"
             >
               Login
             </Link>
