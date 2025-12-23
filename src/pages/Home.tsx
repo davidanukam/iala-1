@@ -196,13 +196,13 @@ const Home: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="bg-white text-[#007A33] px-8 py-3 rounded-md font-semibold hover:bg-gray-100"
+              className="bg-white text-[#007A33] px-8 py-3 rounded-md font-semibold hover:bg-gray-200 hover:scale-105"
             >
               Become a Member
             </Link>
             <Link
               to="/donate"
-              className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-[#007A33]"
+              className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-gray-500 hover:scale-105"
             >
               Support Our Cause
             </Link>
