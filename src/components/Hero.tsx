@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({
 
   return (
     <div
-      className={`relative ${heightClasses[height]} bg-gradient-to-r from-[#007A33] to-green-600 overflow-hidden`}
+      className={`relative ${heightClasses[height]} bg-gradient-to-t from-[#007A33] to-green-100 overflow-hidden`}
     >
       {/* Background Image */}
       <div

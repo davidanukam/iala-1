@@ -28,16 +28,16 @@ const Home: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
           <Link
             to="/events"
-            className="bg-[#007A33] text-white px-8 py-3 rounded-md font-semibold text-center hover:bg-green-700"
+            className="bg-green-500 border-2 border-green-500 text-white px-6 py-3 rounded-md font-semibold text-center hover:bg-green-600 hover:border-green-600 hover:scale-105"
           >
             Explore Events
           </Link>
           <Link
             to="/about"
-            className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold text-center hover:bg-white hover:text-[#007A33]"
+            className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold text-center hover:bg-gray-500 hover:scale-105"
           >
-            Learn More
-          </Link>
+                Learn More
+           </Link>
         </div>
       </Hero>
 
@@ -103,7 +103,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-[#007A33]">
+      <section className="py-16 bg-[#005724]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {stats.map((stat) => (
