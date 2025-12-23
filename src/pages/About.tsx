@@ -114,15 +114,15 @@ const About: React.FC = () => {
           <img
             src="src/assets/bannerdesign.png"
             alt="IALA Gathering"
-            className="rounded-lg shadow-lg w-full h-64 object-cover"
+            className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 duration-100   "
           />
         </div>
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#005724]">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8">
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="bg-white p-8 rounded-lg shadow-md hover:scale-105 duration-100">
             <Target className="h-12 w-12 text-[#007A33] mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
             <p>
@@ -131,7 +131,7 @@ const About: React.FC = () => {
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="bg-white p-8 rounded-lg shadow-md hover:scale-105 duration-100">
             <Globe className="h-12 w-12 text-[#007A33] mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
             <p>
@@ -161,7 +161,7 @@ const About: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {leadership.map((leader) => (
-            <div key={leader.name} className="bg-white rounded-lg shadow-md">
+            <div key={leader.name} className="bg-white rounded-lg shadow-md hover:scale-105 duration-100 overflow-hidden">
               <img
                 src={leader.image}
                 alt={leader.name}
@@ -180,21 +180,21 @@ const About: React.FC = () => {
       </section>
 
       {/* Achievements */}
-      <section className="py-16 bg-[#007A33] text-white">
+      <section className="py-16 bg-[#005724] text-white">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8 text-center">
           <div>
             <Award className="h-16 w-16 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold">$150,000+</h3>
+            <h3 className="text-2xl font-bold text-white">$150,000+</h3>
             <p>Community Grants Received</p>
           </div>
           <div>
             <BookOpen className="h-16 w-16 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold">150+</h3>
+            <h3 className="text-2xl font-bold text-white">150+</h3>
             <p>Educational Programs</p>
           </div>
           <div>
             <Users className="h-16 w-16 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold">15</h3>
+            <h3 className="text-2xl font-bold text-white">15</h3>
             <p>Years of Service</p>
           </div>
         </div>
