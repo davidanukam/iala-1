@@ -112,7 +112,7 @@ const Gallery: React.FC = () => {
             {filteredItems.map((item) => (
               <div
                 key={item.id}
-                className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer"
+                className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:scale-105 duration-100"
                 onClick={() => setSelectedItem(item)}
               >
                 <div className="relative aspect-square">

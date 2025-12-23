@@ -105,9 +105,9 @@
   }
 
   /* Navigation Active State */
-  .nav-active {
+  /* .nav-active {
     @apply text-[#007A33] bg-green-50 border-b-2 border-[#007A33];
-  }
+  } */
 
   /* Loading Animation */
   .loading-spinner {
@@ -223,13 +223,13 @@
   }
 
   /* Interactive States */
-  .interactive-scale {
+  /* .interactive-scale {
     @apply transform transition-transform duration-200 hover:scale-105 active:scale-95;
   }
 
   .interactive-glow {
     @apply transition-all duration-300 hover:shadow-lg hover:shadow-green-200;
-  }
+  } */
 
   /* Cultural Pattern Background */
   .cultural-pattern {

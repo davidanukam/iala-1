@@ -18,9 +18,9 @@ const Footer: React.FC = () => {
           {/* Organization Info */}
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <Heart className="h-8 w-8 text-[#007A33] fill-current" />
+              <Heart className="h-8 w-8 text-green-600 fill-current" />
               <div className="flex flex-col">
-                <span className="font-bold text-[#007A33] text-lg leading-tight">
+                <span className="font-bold text-green-600 text-lg leading-tight">
                   IALA
                 </span>
                 <span className="text-xs text-gray-400 leading-tight">
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#007A33]">
+            <h3 className="text-lg font-semibold mb-4 text-green-600">
               Quick Links
             </h3>
             <ul className="space-y-2">
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#007A33]">
+            <h3 className="text-lg font-semibold mb-4 text-green-600">
               Contact Info
             </h3>
             <div className="space-y-3">
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#007A33]">
+            <h3 className="text-lg font-semibold mb-4 text-green-600">
               Follow Us
             </h3>
             <div className="flex space-x-4">

@@ -18,7 +18,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ post, onClick }) => {
 
   return (
     <div
-      className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer"
+      className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:scale-105 duration-100"
       onClick={() => onClick?.(post.id)}
     >
       {post.image && (
@@ -53,7 +53,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ post, onClick }) => {
             <User className="h-4 w-4" />
             <span className="text-sm">By {post.author}</span>
           </div>
-          <div className="flex items-center space-x-1 text-[#007A33]">
+          <div className="flex items-center space-x-1 text-[#007A33] cursor-pointer">
             <span className="text-sm font-medium">Read more</span>
             <ArrowRight className="h-4 w-4" />
           </div>

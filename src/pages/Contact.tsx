@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
               </div>
 
               {/* Meeting Schedule */}
-              <div className="bg-green-50 p-6 rounded-lg">
+              <div className="bg-green-50 p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-[#007A33] mb-2">
                   Monthly Community Meetings
                 </h3>
@@ -146,7 +146,7 @@ const Contact: React.FC = () => {
                         required
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#007A33] focus:border-transparent"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md"
                       />
                     </div>
 
@@ -160,7 +160,7 @@ const Contact: React.FC = () => {
                         required
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#007A33] focus:border-transparent"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -172,14 +172,14 @@ const Contact: React.FC = () => {
                       placeholder="Phone Number"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#007A33] focus:border-transparent"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
                     />
 
                     <select
                       name="inquiryType"
                       value={formData.inquiryType}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#007A33] focus:border-transparent"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
                     >
                       <option value="general">General Inquiry</option>
                       <option value="membership">Membership</option>
@@ -196,7 +196,7 @@ const Contact: React.FC = () => {
                     placeholder="Subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#007A33] focus:border-transparent"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md"
                   />
 
                   <textarea
@@ -206,12 +206,12 @@ const Contact: React.FC = () => {
                     placeholder="Please provide details about your inquiry..."
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#007A33] focus:border-transparent resize-vertical"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md resize-vertical"
                   />
 
                   <button
                     type="submit"
-                    className="w-full bg-[#007A33] text-white py-3 px-6 rounded-md font-semibold flex items-center justify-center space-x-2"
+                    className="w-full bg-[#007A33] text-white py-3 px-6 rounded-md font-semibold flex items-center justify-center space-x-2 hover:scale-105"
                   >
                     <Send className="h-5 w-5" />
                     <span>Send Message</span>
@@ -234,9 +234,9 @@ const Contact: React.FC = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-2 rounded-md focus:ring-2 focus:ring-green-300 focus:outline-none"
+                className="flex-1 px-4 py-2 rounded-md focus:ring-2 focus:ring-black focus:outline-none"
               />
-              <button className="bg-white text-[#007A33] px-6 py-2 rounded-md font-semibold">
+              <button className="bg-white text-[#007A33] px-6 py-2 rounded-md font-semibold hover:scale-105">
                 Subscribe
               </button>
             </div>
