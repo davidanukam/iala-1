@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Heart } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navigation: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +24,8 @@ const Navigation: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover:scale-105">
-            <Heart className="h-8 w-8 text-[#007A33] fill-current" />
+            {/* <Heart className="h-8 w-8 text-[#007A33] fill-current" /> */}
+            <img src="/favicon.ico" className="rounded-full"/>
             <div className="flex flex-col">
               <span className="font-bold text-[#007A33] text-lg leading-tight">
                 IALA
